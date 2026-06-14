@@ -48,7 +48,7 @@ st.title("🧠 Simulatore Esame Psichiatria")
 st.sidebar.markdown(f"**Database**: {len(data)} domande")
 st.markdown("Questa sessione comprende **31 domande** estratte casualmente con opzioni rimescolate.")
 
-if st.sidebar.button("Genera Nuovo Test"):
+if st.button("🔄 Genera Nuovo Test"):
     start_quiz(data)
     st.rerun()
 
