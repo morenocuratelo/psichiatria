@@ -7,7 +7,6 @@ import os
 st.set_page_config(page_title="Simulatore Esame Psichiatria", page_icon="🧠", layout="wide")
 
 # --- LOAD DATA ---
-# Get the absolute path of the directory where the script is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "banca_domande.json")
 
@@ -19,72 +18,88 @@ def load_data():
         return json.load(f)
 
 def start_quiz(data):
-    st.session_state.quiz_questions = random.sample(data, min(31, len(data)))
+    # Campionamento casuale di 31 domande
+    selected_questions = random.sample(data, min(31, len(data)))
+    
+    # Prepariamo le domande con le opzioni rimescolate
+    processed_questions = []
+    for q in selected_questions:
+        q_copy = q.copy()
+        opts_items = list(q['opzioni'].items())
+        random.shuffle(opts_items)
+        q_copy['shuffled_options'] = dict(opts_items)
+        processed_questions.append(q_copy)
+        
+    st.session_state.quiz_questions = processed_questions
     st.session_state.answers = {}
     st.session_state.submitted = False
 
-# --- SESSION STATE ---
+# --- SESSION STATE INITIALIZATION ---
+data = load_data()
+if not data:
+    st.error("Banca dati non trovata!")
+    st.stop()
+
 if 'quiz_questions' not in st.session_state:
-    data = load_data()
-    if data:
-        start_quiz(data)
-    else:
-        st.error("Banca dati non trovata! Assicurati che banca_domande.json sia presente.")
-        st.stop()
+    start_quiz(data)
 
 # --- UI ---
 st.title("🧠 Simulatore Esame Psichiatria")
-st.markdown("Questa sessione comprende **31 domande** estratte casualmente dalla banca dati validata.")
+st.sidebar.markdown(f"**Database**: {len(data)} domande")
+st.markdown("Questa sessione comprende **31 domande** estratte casualmente con opzioni rimescolate.")
 
-if st.sidebar.button("Ricomincia con nuove domande"):
-    data = load_data()
+if st.sidebar.button("Genera Nuovo Test"):
     start_quiz(data)
     st.rerun()
 
 # --- QUIZ DISPLAY ---
+# Il form deve contenere SEMPRE il submit button per funzionare
 with st.form("quiz_form"):
     for idx, q in enumerate(st.session_state.quiz_questions):
         st.subheader(f"Domanda {idx + 1}")
         st.write(q['domanda'])
         
-        # Options mapping
-        options = q['opzioni']
-        sorted_keys = sorted(options.keys())
+        # Recupero opzioni (se mancano per qualche motivo, fallback su quelle originali)
+        options = q.get('shuffled_options', q['opzioni'])
+        keys = list(options.keys())
         
-        # User selection
-        user_ans = st.radio(
+        # Selezione utente
+        user_choice = st.radio(
             f"Seleziona la risposta per la domanda {idx + 1}:",
-            options=sorted_keys,
-            format_func=lambda x: f"{x.upper()}: {options[x]}",
+            options=keys,
+            format_func=lambda x: f"{options[x]}",
             key=f"radio_{q['hash']}",
-            index=None if not st.session_state.submitted else sorted_keys.index(st.session_state.answers.get(q['hash'])) if st.session_state.answers.get(q['hash']) in sorted_keys else None,
+            index=None if not st.session_state.submitted else keys.index(st.session_state.answers.get(q['hash'])) if st.session_state.answers.get(q['hash']) in keys else None,
             disabled=st.session_state.submitted
         )
-        st.session_state.answers[q['hash']] = user_ans
+        st.session_state.answers[q['hash']] = user_choice
 
-        # --- IMMEDIATE FEEDBACK ---
+        # Feedback dopo la consegna
         if st.session_state.submitted:
-            correct_ans = q['risposta_corretta_finale']
-            is_correct = user_ans == correct_ans
+            correct_key = q['risposta_corretta_finale']
+            is_correct = user_choice == correct_key
             if is_correct:
-                st.success(f"**Risposta Corretta!** ✅")
+                st.success("**Risposta Corretta!** ✅")
             else:
-                st.error(f"**Risposta Sbagliata** ❌ (Corretta: {correct_ans.upper()}: {options.get(correct_ans, '')})")
+                correct_text = q['opzioni'][correct_key]
+                st.error(f"**Risposta Sbagliata** ❌ (Corretta: {correct_text})")
             st.info(f"**Spiegazione:** {q['spiegazione']}")
         
         st.divider()
 
-    submitted = st.form_submit_button("Consegna il Test", disabled=st.session_state.submitted)
+    # Pulsante OBBLIGATORIO del form
+    submitted = st.form_submit_button("Consegna il Test")
 
-# --- EVALUATION LOGIC ---
+# --- LOGICA DI VALUTAZIONE ---
 if submitted:
     st.session_state.submitted = True
     st.rerun()
 
 if st.session_state.submitted:
     correct_count = sum(1 for q in st.session_state.quiz_questions if st.session_state.answers.get(q['hash']) == q['risposta_corretta_finale'])
-    score_percentage = (correct_count / len(st.session_state.quiz_questions)) * 100
-    st.header(f"📊 Risultato Finale: {correct_count} / {len(st.session_state.quiz_questions)} ({score_percentage:.1f}%)")
+    score = (correct_count / len(st.session_state.quiz_questions)) * 100
+    
+    st.header(f"📊 Risultato Finale: {correct_count} / {len(st.session_state.quiz_questions)} ({score:.1f}%)")
     if correct_count >= 18:
         st.balloons()
         st.success("Test superato! 🎉")

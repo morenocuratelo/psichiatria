@@ -146,11 +146,11 @@
       "a": "Sintomi",
       "b": "Relazioni familiari",
       "c": "Vissuto personale",
-      "d": "Nessuna delle precedenti"
+      "d": "Tutte le precedenti"
     },
     "risposta_suggerita_pdf": "d",
     "risposta_corretta_finale": "d",
-    "spiegazione": "L'approccio psicodinamico integra il significato del sintomo con le dinamiche relazionali e la storia evolutiva del paziente.",
+    "spiegazione": "L'approccio psicodinamico ai DCA integra la lettura dei sintomi, il vissuto soggettivo della paziente e le dinamiche relazionali/familiari sottostanti.",
     "confermata_dall_ai": true
   },
   {
@@ -2311,7 +2311,7 @@
   },
   {
     "hash": "q_184",
-    "domanda": "Quale dei seguenti non è considerato è un fattore prognostico favorevole della schizofrenia?",
+    "domanda": "Quale dei seguenti NON è considerato un fattore prognostico favorevole della schizofrenia?",
     "opzioni": {
       "a": "Sintomi positivi",
       "b": "Età d’esordio precoce",
@@ -2319,8 +2319,8 @@
       "d": "Esordio acuto"
     },
     "risposta_suggerita_pdf": "b",
-    "risposta_corretta_finale": "b",
-    "spiegazione": "La diagnosi di schizofrenia richiede segni continuativi del disturbo per almeno 6 mesi secondo il DSM5.",
+    "risposta_corretta_finale": "d",
+    "spiegazione": "Un esordio precoce (adolescenziale) correla solitamente con una prognosi peggiore, a differenza di un esordio acuto, del sesso femminile o della prevalenza di sintomi positivi.",
     "confermata_dall_ai": true
   },
   {
@@ -5421,14 +5421,14 @@
     "hash": "q_3381a18413",
     "domanda": "Quale delle seguenti affermazioni sul disturbo di depersonalizzazione e derealizzazione è vera?",
     "opzioni": {
-      "a": "Possono presentarsi durante l’attacco di panico",
-      "b": "Non si manifestano mai durante un episodio depressivo maggiore",
-      "c": "Configuro un disturbo anche se il funzionamento non viene compromesso",
-      "d": "Disturbo d'ansia generalizzata"
+      "a": "I sintomi possono presentarsi durante un attacco di panico",
+      "b": "L'esame di realtà è tipicamente compromesso (delirio)",
+      "c": "I sintomi si manifestano esclusivamente durante l'uso di sostanze",
+      "d": "È un disturbo tipico della terza età"
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "a",
-    "spiegazione": "Verificare i criteri diagnostici specifici nel manuale DSM5.",
+    "spiegazione": "La depersonalizzazione e la derealizzazione possono essere sintomi associati a un attacco di panico o a un episodio depressivo, pur costituendo un disturbo autonomo se persistenti.",
     "confermata_dall_ai": true
   },
   {
@@ -6175,16 +6175,16 @@
   },
   {
     "hash": "q_1787737ec3",
-    "domanda": "Quale delle seguenti affermazioni sul disturbo di depersonalizzazione e derealizzazione vera? . Possono presentarsi durante l’attacco di panico",
+    "domanda": "Quale delle seguenti affermazioni sul disturbo di depersonalizzazione e derealizzazione è vera?",
     "opzioni": {
-      "a": "Non si manifestano mai durante un episodio depressivo maggiore",
-      "b": "Configuro un disturbo anche se il funzionamento non viene compromesso",
-      "c": "Disturbo d'ansia generalizzata",
-      "d": "Disturbo di panico"
+      "a": "I sintomi possono presentarsi durante un attacco di panico",
+      "b": "L'esame di realtà è tipicamente compromesso (delirio)",
+      "c": "I sintomi si manifestano esclusivamente durante l'uso di sostanze",
+      "d": "È un disturbo tipico della terza età"
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "a",
-    "spiegazione": "L'attacco di panico è una comparsa improvvisa di paura o disagio intensi che raggiunge il picco in pochi minuti, con sintomi somatici e cognitivi.",
+    "spiegazione": "La depersonalizzazione e la derealizzazione possono essere sintomi associati a un attacco di panico o a un episodio depressivo, pur costituendo un disturbo autonomo se persistenti.",
     "confermata_dall_ai": true
   },
   {
