@@ -4083,8 +4083,8 @@
       "d": "6 mesi – 1 anno"
     },
     "risposta_suggerita_pdf": "",
-    "risposta_corretta_finale": "d",
-    "spiegazione": "La durata media di un episodio depressivo maggiore non trattato è di circa 612 mesi.",
+    "risposta_corretta_finale": "c",
+    "spiegazione": "La durata media di un episodio depressivo maggiore non trattato è di circa 6-24 mesi.",
     "confermata_dall_ai": true
   },
   {
@@ -5592,10 +5592,10 @@
       "a": "Significati personali",
       "b": "Significati culturali",
       "c": "Significati derivanti dalle info scientifiche",
-      "d": "Nessuna delle precedenti"
+      "d": "Tutte le precedenti"
     },
     "risposta_suggerita_pdf": "d",
-    "risposta_corretta_finale": "a",
+    "risposta_corretta_finale": "d",
     "spiegazione": "Verificare i criteri diagnostici specifici nel manuale DSM5.",
     "confermata_dall_ai": true
   },
