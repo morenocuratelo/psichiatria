@@ -242,13 +242,13 @@
     "domanda": "Quale tra i seguenti disturbi NON classificato nel capitolo del DOC e disturbi correlati del DSM5?",
     "opzioni": {
       "a": "Disturbo da accumulo",
-      "b": "Disturbo ossessivocompulsivo",
+      "b": "Disturbo ossessivo-compulsivo",
       "c": "Disturbo da dismorfismo corporeo",
-      "d": "Disturbo ossessivocompulsivo di personalità"
+      "d": "Disturbo ossessivo-compulsivo di personalità"
     },
     "risposta_suggerita_pdf": "d",
     "risposta_corretta_finale": "d",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo di Personalità (OCPD) è un disturbo di personalità (Cluster C) e differisce dal DOC per la mancanza di vere ossessioni e compulsioni.",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo di Personalità (OCPD) è un disturbo di personalità (Cluster C) e differisce dal DOC per la mancanza di vere ossessioni e compulsioni.",
     "confermata_dall_ai": true
   },
   {
@@ -267,7 +267,7 @@
   },
   {
     "hash": "q_27",
-    "domanda": "Nel disturbo ossessivocompulsivo quali sono i sintomi compulsivi statisticamente pi frequenti?",
+    "domanda": "Nel disturbo ossessivo-compulsivo quali sono i sintomi compulsivi statisticamente pi frequenti?",
     "opzioni": {
       "a": "Rituali di conta",
       "b": "Rituali di controllo (checking)",
@@ -299,12 +299,12 @@
     "opzioni": {
       "a": "Disturbi d'ansia",
       "b": "Disturbi somatoformi",
-      "c": "Disturbo ossessivocompulsivo e disturbi correlati",
+      "c": "Disturbo ossessivo-compulsivo e disturbi correlati",
       "d": "Disturbi del comportamento alimentare"
     },
     "risposta_suggerita_pdf": "c",
     "risposta_corretta_finale": "c",
-    "spiegazione": "Il DSM5 ha spostato il dismorfismo corporeo dai disturbi somatoformi allo spettro ossessivocompulsivo.",
+    "spiegazione": "Il DSM5 ha spostato il dismorfismo corporeo dai disturbi somatoformi allo spettro ossessivo-compulsivo.",
     "confermata_dall_ai": true
   },
   {
@@ -466,7 +466,7 @@
     "domanda": "Quale tra i seguenti disturbi ha solitamente un'insorgenza acuta?",
     "opzioni": {
       "a": "Disturbo depressivo maggiore",
-      "b": "Disturbo ossessivocompulsivo",
+      "b": "Disturbo ossessivo-compulsivo",
       "c": "Attacco di panico",
       "d": "Disturbo di personalità schizoide"
     },
@@ -556,7 +556,7 @@
     },
     "risposta_suggerita_pdf": "d",
     "risposta_corretta_finale": "d",
-    "spiegazione": "Le fobie specifiche sono comuni (712% prevalenza 12 mesi, fino al 15% lifetime) e possono interferire significativamente con il funzionamento sociale o lavorativo.",
+    "spiegazione": "Le fobie specifiche sono comuni (7-12% prevalenza 12 mesi, fino al 15% lifetime) e possono interferire significativamente con il funzionamento sociale o lavorativo.",
     "confermata_dall_ai": true
   },
   {
@@ -703,9 +703,9 @@
     "hash": "q_67",
     "domanda": "Qual è la durata media di un episodio depressivo maggiore non trattato?",
     "opzioni": {
-      "a": "12 settimane",
-      "b": "13 mesi",
-      "c": "49 mesi (fino a 12 anni in alcuni casi)",
+      "a": "1-2 settimane",
+      "b": "1-3 mesi",
+      "c": "4-9 mesi (fino a 1-2 anni in alcuni casi)",
       "d": "Sempre meno di un mese"
     },
     "risposta_suggerita_pdf": "c",
@@ -1695,7 +1695,7 @@
   },
   {
     "hash": "q_139",
-    "domanda": "Criterio per il Disturbo OssessivoCompulsivo di Personalit (OCPD):",
+    "domanda": "Criterio per il Disturbo Ossessivo-Compulsivo di Personalit (OCPD):",
     "opzioni": {
       "a": "Eccessiva dedizione al lavoro e alla produttività (fino a escludere svago e amicizie)",
       "b": "Presenza di rituali di lavaggio",
@@ -1781,7 +1781,7 @@
     "hash": "q_145",
     "domanda": "Quale disturbo NON fa parte del Cluster B (i 'drammatici')?",
     "opzioni": {
-      "a": "OssessivoCompulsivo di Personalità",
+      "a": "Ossessivo-Compulsivo di Personalità",
       "b": "Antisociale",
       "c": "Borderline",
       "d": "Narcisistico"
@@ -1795,7 +1795,7 @@
     "hash": "q_146",
     "domanda": "Il Cluster C comprende i disturbi:",
     "opzioni": {
-      "a": "Evitante, Dipendente, OssessivoCompulsivo di Personalità",
+      "a": "Evitante, Dipendente, Ossessivo-Compulsivo di Personalità",
       "b": "Paranoide, Schizoide, Schizotipico",
       "c": "Antisociale, Borderline, Istrionico",
       "d": "Nessuno di questi"
@@ -3347,7 +3347,7 @@
   },
   {
     "hash": "q_276",
-    "domanda": "Quale fra le seguenti è una caratteristica del disturbo ossessivocompulsivo episodico?",
+    "domanda": "Quale fra le seguenti è una caratteristica del disturbo ossessivo-compulsivo episodico?",
     "opzioni": {
       "a": "Prevalenza nel sesso maschile",
       "b": "Prevalenza di sintomi ossessivi",
@@ -3473,7 +3473,7 @@
   },
   {
     "hash": "q_287",
-    "domanda": "Quale di questi è è un criterio diagnostico del disturbo ossessivocompulsivo di personalità?",
+    "domanda": "Quale di questi è è un criterio diagnostico del disturbo ossessivo-compulsivo di personalità?",
     "opzioni": {
       "a": "Eccesso di dedizione al lavoro",
       "b": "Mancanza di empatia",
@@ -3501,7 +3501,7 @@
   },
   {
     "hash": "q_294",
-    "domanda": "Dopo quanto tempo, si manifestano i primi effetti della terapia farmacologica nel disturbo ossessivocompulsivo?",
+    "domanda": "Dopo quanto tempo, si manifestano i primi effetti della terapia farmacologica nel disturbo ossessivo-compulsivo?",
     "opzioni": {
       "a": "Dopo 23 settimane",
       "b": "Dopo 45 settimane",
@@ -3519,12 +3519,12 @@
     "opzioni": {
       "a": "I disturbi da sintomi fisici",
       "b": "I disturbi del comportamento alimentare",
-      "c": "I disturbi dello spettro ossessivocompulsivo",
+      "c": "I disturbi dello spettro ossessivo-compulsivo",
       "d": "I disturbi d’ansia"
     },
     "risposta_suggerita_pdf": "c",
     "risposta_corretta_finale": "c",
-    "spiegazione": "Il DSM5 ha riclassificato il dismorfismo corporeo all'interno del capitolo del Disturbo OssessivoCompulsivo e disturbi correlati.",
+    "spiegazione": "Il DSM5 ha riclassificato il dismorfismo corporeo all'interno del capitolo del Disturbo Ossessivo-Compulsivo e disturbi correlati.",
     "confermata_dall_ai": true
   },
   {
@@ -3576,25 +3576,25 @@
       "a": "Borderline",
       "b": "Narcisistico",
       "c": "Antisociale",
-      "d": "Ossessivocompulsivo"
+      "d": "Ossessivo-Compulsivo"
     },
     "risposta_suggerita_pdf": "",
     "risposta_corretta_finale": "d",
-    "spiegazione": "Il disturbo ossessivocompulsivo di personalità fa parte del Cluster C (ansiosotimoroso), mentre il Cluster B (drammaticoimprevedibile) comprende i disturbi antisociale, borderline, istrionico e narcisistico.",
+    "spiegazione": "Il disturbo ossessivo-compulsivo di personalità fa parte del Cluster C (ansiosotimoroso), mentre il Cluster B (drammaticoimprevedibile) comprende i disturbi antisociale, borderline, istrionico e narcisistico.",
     "confermata_dall_ai": true
   },
   {
     "hash": "q_402",
     "domanda": "Nel DSM i disturbi di personalità del cluster c comprendono:",
     "opzioni": {
-      "a": "Dipendente, evitante, ossessivocompulsivo",
+      "a": "Dipendente, evitante, ossessivo-compulsivo",
       "b": "Paranoide, Schizoide, Schizotipico",
       "c": "Antisociale, Borderline, Istrionico",
       "d": "Nessuna delle precedenti"
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "a",
-    "spiegazione": "Il Cluster C del DSM comprende i disturbi di personalità caratterizzati da tratti ansiosi e timorosi: Evitante, Dipendente e OssessivoCompulsivo.",
+    "spiegazione": "Il Cluster C del DSM comprende i disturbi di personalità caratterizzati da tratti ansiosi e timorosi: Evitante, Dipendente e Ossessivo-Compulsivo.",
     "confermata_dall_ai": true
   },
   {
@@ -3942,9 +3942,9 @@
       "c": "4 mesi – 2 anni",
       "d": "6 mesi – 1 anno"
     },
-    "risposta_suggerita_pdf": "",
-    "risposta_corretta_finale": "d",
-    "spiegazione": "Senza trattamento, un episodio depressivo maggiore ha una durata variabile che mediamente si attesta tra i 6 e i 12 mesi.",
+    "risposta_suggerita_pdf": "c",
+    "risposta_corretta_finale": "c",
+    "spiegazione": "Senza trattamento, un episodio depressivo maggiore ha una durata variabile che mediamente si attesta tra i 4 e i 24 mesi.",
     "confermata_dall_ai": true
   },
   {
@@ -4274,7 +4274,7 @@
     "domanda": "Quale tra i seguenti disturbi non è considerato dal DSM5 all’interno del gruppo dei disturbi ossessivocompulsivi e disturbi correlati?",
     "opzioni": {
       "a": "disturbo da accumulo (hoarding disorder)",
-      "b": "disturbo ossessivocompulsivo",
+      "b": "disturbo ossessivo-compulsivo",
       "c": "disturbo da dismorfismo corporeo",
       "d": "Disturbo da escoriazione (dermatillomania)"
     },
@@ -4285,7 +4285,7 @@
   },
   {
     "hash": "q_bdca5cf163",
-    "domanda": "Quale tra le seguent i affermazioni relative al disturbo ossessivocompulsivo episodico è è corretta?",
+    "domanda": "Quale tra le seguent i affermazioni relative al disturbo ossessivo-compulsivo episodico è è corretta?",
     "opzioni": {
       "a": "L’esordio può essere sia acuto che subdolo e insidioso",
       "b": "Esordio tra i 10 e i 40 anni nel 20% dei casi",
@@ -4294,12 +4294,12 @@
     },
     "risposta_suggerita_pdf": "c",
     "risposta_corretta_finale": "c",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
     "hash": "q_cbaff6d524",
-    "domanda": "Quale farmaco può essere utilizzato nel trattamento di disturbo ossessivocompulsivo resistente alle terapie?",
+    "domanda": "Quale farmaco può essere utilizzato nel trattamento di disturbo ossessivo-compulsivo resistente alle terapie?",
     "opzioni": {
       "a": "Antipsicotico in monoterapia",
       "b": "Antipsicotico in augmentation",
@@ -4308,12 +4308,12 @@
     },
     "risposta_suggerita_pdf": "b",
     "risposta_corretta_finale": "b",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
     "hash": "q_f581cee16a",
-    "domanda": "La prevalenza lifetime del disturbo ossessivocompulsivo si avvicina al:",
+    "domanda": "La prevalenza lifetime del disturbo ossessivo-compulsivo si avvicina al:",
     "opzioni": {
       "a": "1020%",
       "b": "12%",
@@ -4322,21 +4322,21 @@
     },
     "risposta_suggerita_pdf": "b",
     "risposta_corretta_finale": "b",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
     "hash": "q_ab00df9d51",
-    "domanda": "Qual è la distribuzione tra i sessi del disturbo ossessivocompulsivo?",
+    "domanda": "Qual è la distribuzione tra i sessi del disturbo ossessivo-compulsivo?",
     "opzioni": {
       "a": "Non ci sono differenze significative",
       "b": "Maggiore negli uomini",
       "c": "Maggiore nelle donne",
       "d": "Non ci sono dati epidemiologici sufficienti"
     },
-    "risposta_suggerita_pdf": "c",
-    "risposta_corretta_finale": "c",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "risposta_suggerita_pdf": "a",
+    "risposta_corretta_finale": "a",
+    "spiegazione": "Amor ch'a nulla amato amar perdona, ma il Disturbo Ossessivo-Compulsivo non mostra differenze significative tra i sessi.",
     "confermata_dall_ai": true
   },
   {
@@ -4378,7 +4378,7 @@
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "a",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
@@ -4448,7 +4448,7 @@
     },
     "risposta_suggerita_pdf": "b",
     "risposta_corretta_finale": "b",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
@@ -4499,7 +4499,7 @@
     "opzioni": {
       "a": "Disturbo d’ansia",
       "b": "Disturbo del comportamento alimentare",
-      "c": "Disturbo ossessivocompulsivo",
+      "c": "Disturbo ossessivo-compulsivo",
       "d": "Disturbo d'ansia generalizzata"
     },
     "risposta_suggerita_pdf": "c",
@@ -4511,7 +4511,7 @@
     "hash": "q_dcd5683577",
     "domanda": "Quale tra i seguent i ha insorgenza acuta:",
     "opzioni": {
-      "a": "Disturbo ossessivocompulsivo",
+      "a": "Disturbo ossessivo-compulsivo",
       "b": "Disturbo Depressivo maggiore",
       "c": "Attacco di panico",
       "d": "Disturbo d'ansia generalizzata"
@@ -4980,7 +4980,7 @@
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "c",
-    "spiegazione": "Le ossessioni sono il nucleo del Disturbo OssessivoCompulsivo. Sebbene possano comparire in comorbidità, non rientrano tra i criteri diagnostici del DSM5 per l'episodio depressivo maggiore, che include invece anedonia, autosvalutazione e sintomi somatici.",
+    "spiegazione": "Le ossessioni sono il nucleo del Disturbo Ossessivo-Compulsivo. Sebbene possano comparire in comorbidità, non rientrano tra i criteri diagnostici del DSM5 per l'episodio depressivo maggiore, che include invece anedonia, autosvalutazione e sintomi somatici.",
     "confermata_dall_ai": true
   },
   {
@@ -5167,7 +5167,7 @@
   },
   {
     "hash": "q_ff3e13eb21",
-    "domanda": "Disturbo ossessivocompulsivo di personalit:",
+    "domanda": "Disturbo ossessivo-compulsivo di personalit:",
     "opzioni": {
       "a": "Perfezionismo rigido, inflessibilità. . .",
       "b": "Presenza di allucinazioni uditive",
@@ -5176,7 +5176,7 @@
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "a",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
@@ -5699,7 +5699,7 @@
   },
   {
     "hash": "q_998925f514",
-    "domanda": "Quali di questi farmaci può essere impiegato nella terapia delle forme di disturbo ossessivocompulsivo resistenti?",
+    "domanda": "Quali di questi farmaci può essere impiegato nella terapia delle forme di disturbo ossessivo-compulsivo resistenti?",
     "opzioni": {
       "a": "Gli ormoni tiroidei",
       "b": "Antipsicotici in monoterapia",
@@ -5951,7 +5951,7 @@
   },
   {
     "hash": "q_c93a76f78c",
-    "domanda": "nel disturbo ossessivocompulsivo:",
+    "domanda": "nel disturbo ossessivo-compulsivo:",
     "opzioni": {
       "a": "Le ossessioni sono egodistoniche",
       "b": "Le ossessioni vengono messe in atto per neutralizzare le compulsioni",
@@ -5960,7 +5960,7 @@
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "a",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
@@ -6161,7 +6161,7 @@
   },
   {
     "hash": "q_3543c779a5",
-    "domanda": "Nel disturbo ossessivocompulsivo non trattato, il decorso:",
+    "domanda": "Nel disturbo ossessivo-compulsivo non trattato, il decorso:",
     "opzioni": {
       "a": "È più frequentemente cronico",
       "b": "È più frequentemente ingravescente",
@@ -6170,7 +6170,7 @@
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "a",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
@@ -6217,7 +6217,7 @@
   },
   {
     "hash": "q_8b1aff26a5",
-    "domanda": "Quale tra le seguenti una caratteristica distintiva del Disturbo OssessivoCompulsivo di Personalit (OCPD)?",
+    "domanda": "Quale tra le seguenti una caratteristica distintiva del Disturbo Ossessivo-Compulsivo di Personalit (OCPD)?",
     "opzioni": {
       "a": "Perfezionismo rigido, preoccupazione per l'ordine e inflessibilità",
       "b": "Presenza di ossessioni egodistoniche di contaminazione",
@@ -6469,7 +6469,7 @@
   },
   {
     "hash": "q_fe5577cd74",
-    "domanda": "Cosa definisce un'ossessione nel Disturbo OssessivoCompulsivo?",
+    "domanda": "Cosa definisce un'ossessione nel Disturbo Ossessivo-Compulsivo?",
     "opzioni": {
       "a": "Pensieri o immagini ricorrenti vissuti come intrusivi e indesiderati",
       "b": "Azioni ripetitive volte a calmare l'ansia",
@@ -6646,8 +6646,7 @@
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "a",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
-    "confermata_dall_ai": true
+    "spiegazione": "Amor ch'a nulla amato amar perdona, ma il Disturbo Ossessivo-Compulsivo non mostra differenze significative tra i sessi."
   },
   {
     "hash": "q_cabe91ee8c",
@@ -6674,7 +6673,7 @@
     },
     "risposta_suggerita_pdf": "a",
     "risposta_corretta_finale": "b",
-    "spiegazione": "Il Disturbo OssessivoCompulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
+    "spiegazione": "Il Disturbo Ossessivo-Compulsivo è caratterizzato dalla presenza di ossessioni (pensieri/impulsi intrusivi) e/o compulsioni (comportamenti ripetitivi per ridurre il disagio).",
     "confermata_dall_ai": true
   },
   {
